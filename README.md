@@ -19,7 +19,7 @@ Baseline training models for different experiments for the first stage (Semantic
     - L4HS + Sentence Average BERT Embeddings
     - L4HS + Pooled BERT Embeddings
 
-- **Coherence Model **
+- **Coherence Model**
 	- with 2nd Last Hidden State (2LHS) BERT Embeddedings
     - with sum of Last 4 Hidden States (L4HS) BERT Embeddings
     - L4HS + Sentence Average BERT Embeddings
@@ -27,7 +27,7 @@ Baseline training models for different experiments for the first stage (Semantic
     
  - **Coherence Model - Next Sentence Prediction (NSP):** Using the output from BERT model fine-tuned for next sentence prediction to evaluate local and global average sentence coherency. We perform a direct evaluation of the two models on an unseen IELTS dataset.
  
- - **Prompt Relevance Model:** 
+ - **Prompt Relevance Model** 
 	- with 2nd Last Hidden State (2LHS) BERT Embeddedings
     - with sum of Last 4 Hidden States (L4HS) BERT Embeddings
     - L4HS + Sentence Average BERT Embeddings
@@ -54,12 +54,16 @@ Baseline training models for different experiments for the first stage (Semantic
     - L4HS + Sentence Average BERT Embeddings
     - L4HS + Pooled BERT Embeddings
  
- - **Prompt Relevance Model:** 
+ - **Prompt Relevance Model** 
 	- with 2nd Last Hidden State (2LHS) BERT Embeddedings
     - with sum of Last 4 Hidden States (L4HS) BERT Embeddings
     - L4HS + Sentence Average BERT Embeddings
     - L4HS + Pooled BERT Embeddings
     
 **2nd Stage Model Selection:** We explore different tree-based models (including XGBoost and RF) for 2nd stage regression model selection.
+
+## How to run
+
+The notebooks can be imported to Google Colaboratory and executed directly. All pre-requisite libraries are imported/installed during the setup/initialization cells of the notebooks. 
 
 
